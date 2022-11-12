@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="header">
+        <a href="index.html">
+            <img src="image/logo.png" alt="logo">
+        </a>
+        <nav class="nav" id="nav">
+            <ul id="navlinks">
+                <li><a href="" class="active">Home</a></li>
+                <li><a href="">Shop</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+                <li class="cart"><a href=""><i class="fa-solid fa-cart-shopping"></i></a></li>
+                <a href="" id="close" onclick="nav_close()"><i class="fa-solid fa-x"></i></a>
+            </ul>
+        </nav>
+        <div id="mobile-menu">
+            <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+            <i onclick="nav_active()" class="fa-solid fa-bars" id="bar"></i>
+        </div>
+    </section>
+    <section class="_2nd">
+        <div class="banner">
+            <h4>Trade-in-offer</h4>
+            <h2>Super value deals</h2>
+            <h1>On All Products</h1>
+            <p>Save more with cupons & up to 75% off!</p>
+            <a href="#">Shop Now</a>
+        </div>
+    </section>
+    <section class="_3rd">
+        <div class="featured-box">
+            <img src="image/features/f1.png" alt="">
+            <h5>Free Shipping</h5>
+        </div>
+        <div class="featured-box">
+            <img src="image/features/f2.png" alt="">
+            <h5>Online Order</h5>
+        </div>
+        <div class="featured-box">
+            <img src="image/features/f3.png" alt="">
+            <h5>Save Money</h5>
+        </div>
+        <div class="featured-box">
+            <img src="image/features/f4.png" alt="">
+            <h5>Promotions</h5>
+        </div>
+        <div class="featured-box">
+            <img src="image/features/f5.png" alt="">
+            <h5>Happy Sell</h5>
+        </div>
+        <div class="featured-box">
+            <img src="image/features/f6.png" alt="">
+            <h5>24/7 Support</h5>
+        </div>
+    </section>
+    <section class="_4th">
+        <h2>Featured Products</h2>
+        <p>Summer Collection New Modern Design</p>
+        <div class="f-products-wrapper">
+            <div class="f-products">
+                <div class="products">
+                    <img src="image/products/f1.jpg" alt="">
+                    <div class="p-desc">
+                        <span>Adidas</span>
+                        <h4>Cartoon Astronout T-Shirts</h4>
+                        <div class="pricing">
+                            <div class="price">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <h5>$78</h5>
+                            </div>
+                            <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="f-products">
+                <div class="products">
+                    <img src="image/products/f2.jpg" alt="">
+                    <div class="p-desc">
+                        <span>Adidas</span>
+                        <h4>Cartoon Astronout T-Shirts</h4>
+                        <div class="pricing">
+                            <div class="price">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <h5>$88</h5>
+                            </div>
+                            <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="f-products">
+                <div class="products">
+                    <img src="image/products/f3.jpg" alt="">
+                    <div class="p-desc">
+                        <span>Adidas</span>
+                        <h4>Cartoon Astronout T-Shirts</h4>
+                        <div class="pricing">
+                            <div class="price">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <h5>$60</h5>
+                            </div>
+                            <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="f-products">
+                <div class="products">
+                    <img src="image/products/f4.jpg" alt="">
+                    <div class="p-desc">
+                        <span>Adidas</span>
+                        <h4>Cartoon Astronout T-Shirts</h4>
+                        <div class="pricing">
+                            <div class="price">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <h5>$90</h5>
+                            </div>
+                            <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="f-products">
+                <div class="products">
+                    <img src="image/products/f5.jpg" alt="">
+                    <div class="p-desc">
+                        <span>Adidas</span>
+                        <h4>Cartoon Astronout T-Shirts</h4>
+                        <div class="pricing">
+                            <div class="price">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <h5>$100</h5>
+                            </div>
+                            <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="f-products">
+                <div class="products">
+                    <img src="image/products/f6.jpg" alt="">
+                    <div class="p-desc">
+                        <span>Adidas</span>
+                        <h4>Cartoon Astronout T-Shirts</h4>
+                        <div class="pricing">
+                            <div class="price">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <h5>$75</h5>
+                            </div>
+                            <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="f-products">
+                <div class="products">
+                    <img src="image/products/f7.jpg" alt="">
+                    <div class="p-desc">
+                        <span>Adidas</span>
+                        <h4>Cartoon Astronout T-Shirts</h4>
+                        <div class="pricing">
+                            <div class="price">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <h5>$58</h5>
+                            </div>
+                            <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="f-products">
+                <div class="products">
+                    <img src="image/products/f8.jpg" alt="">
+                    <div class="p-desc">
+                        <span>Adidas</span>
+                        <h4>Cartoon Astronout T-Shirts</h4>
+                        <div class="pricing">
+                            <div class="price">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <h5>$78</h5>
+                            </div>
+                            <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="f-products">
+                <div class="products">
+                    <img src="image/products/f2.jpg" alt="">
+                    <div class="p-desc">
+                        <span>Adidas</span>
+                        <h4>Cartoon Astronout T-Shirts</h4>
+                        <div class="pricing">
+                            <div class="price">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <h5>$45</h5>
+                            </div>
+                            <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="f-products">
+                <div class="products">
+                    <img src="image/products/f4.jpg" alt="">
+                    <div class="p-desc">
+                        <span>Adidas</span>
+                        <h4>Cartoon Astronout T-Shirts</h4>
+                        <div class="pricing">
+                            <div class="price">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <h5>$76</h5>
+                            </div>
+                            <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="_5th">
+        <div class="repair_service">
+            <h4>Reprair Service</h4>
+            <h2>Up to <span>70% Off</span> - All T-Shirts & Accessories</h2>
+            <a href="#">Explore More</a>
+        </div>
+    </section>
+    <section class="_6th">
+        <h2>New Arivals</h2>
+        <p>Summer Collection New Modern Design</p>
+        <div class="f-products-wrapper">
+            <div class="f-products">
+                <div class="products">
+                    <img src="image/products/n1.jpg" alt="">
+                    <div class="p-desc">
+                        <span>Adidas</span>
+                        <h4>Cartoon Astronout T-Shirts</h4>
+                        <div class="pricing">
+                            <div class="price">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <h5>$78</h5>
+                            </div>
+                            <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="f-products">
+                <div class="products">
+                    <img src="image/products/n2.jpg" alt="">
+                    <div class="p-desc">
+                        <span>Adidas</span>
+                        <h4>Cartoon Astronout T-Shirts</h4>
+                        <div class="pricing">
+                            <div class="price">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <h5>$88</h5>
+                            </div>
+                            <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="f-products">
+                <div class="products">
+                    <img src="image/products/n3.jpg" alt="">
+                    <div class="p-desc">
+                        <span>Adidas</span>
+                        <h4>Cartoon Astronout T-Shirts</h4>
+                        <div class="pricing">
+                            <div class="price">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <h5>$60</h5>
+                            </div>
+                            <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="f-products">
+                <div class="products">
+                    <img src="image/products/n4.jpg" alt="">
+                    <div class="p-desc">
+                        <span>Adidas</span>
+                        <h4>Cartoon Astronout T-Shirts</h4>
+                        <div class="pricing">
+                            <div class="price">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <h5>$90</h5>
+                            </div>
+                            <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="f-products">
+                <div class="products">
+                    <img src="image/products/n5.jpg" alt="">
+                    <div class="p-desc">
+                        <span>Adidas</span>
+                        <h4>Cartoon Astronout T-Shirts</h4>
+                        <div class="pricing">
+                            <div class="price">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <h5>$100</h5>
+                            </div>
+                            <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="f-products">
+                <div class="products">
+                    <img src="image/products/n6.jpg" alt="">
+                    <div class="p-desc">
+                        <span>Adidas</span>
+                        <h4>Cartoon Astronout T-Shirts</h4>
+                        <div class="pricing">
+                            <div class="price">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <h5>$75</h5>
+                            </div>
+                            <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="f-products">
+                <div class="products">
+                    <img src="image/products/n7.jpg" alt="">
+                    <div class="p-desc">
+                        <span>Adidas</span>
+                        <h4>Cartoon Astronout T-Shirts</h4>
+                        <div class="pricing">
+                            <div class="price">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <h5>$58</h5>
+                            </div>
+                            <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="f-products">
+                <div class="products">
+                    <img src="image/products/f8.jpg" alt="">
+                    <div class="p-desc">
+                        <span>Adidas</span>
+                        <h4>Cartoon Astronout T-Shirts</h4>
+                        <div class="pricing">
+                            <div class="price">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <h5>$78</h5>
+                            </div>
+                            <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="f-products">
+                <div class="products">
+                    <img src="image/products/f2.jpg" alt="">
+                    <div class="p-desc">
+                        <span>Adidas</span>
+                        <h4>Cartoon Astronout T-Shirts</h4>
+                        <div class="pricing">
+                            <div class="price">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <h5>$45</h5>
+                            </div>
+                            <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="f-products">
+                <div class="products">
+                    <img src="image/products/n8.jpg" alt="">
+                    <div class="p-desc">
+                        <span>Adidas</span>
+                        <h4>Cartoon Astronout T-Shirts</h4>
+                        <div class="pricing">
+                            <div class="price">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <h5>$76</h5>
+                            </div>
+                            <a href=""><i class="fa-solid fa-cart-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="_7th">
+        <div class="offer_gal_1">
+            <div class="offer_gal_wrapper wr1">
+                <span>Crazy Deals</span>
+                <h3>Buy 1 get 1 Free</h3>
+                <p>The best classic dress on sale</p>
+                <div><a href="#">Learn More</a></div>
+            </div>
+            <div class="offer_gal_wrapper wr2">
+                <span>Spring/Summer</span>
+                <h3>Upcoming Season</h3>
+                <p>The best clasic dress in on sale</p>
+                <div><a href="#">Collection</a></div>
+            </div>
+        </div>
+        <div class="offer_gal_1 _gal_2">
+            <div class="offer_gal_wrapper wr1 b_banner1">
+                <h3>SEASONAL SALE</h3>
+                <p>Winter Collection -50% Off</p>
+            </div>
+            <div class="offer_gal_wrapper wr2 b_banner2">
+                <h3>NEW FOOTWEAR COLLECTION</h3>
+                <p>Spring/Summer 2022</p>
+            </div>
+            <div class="offer_gal_wrapper wr2 b_banner3">
+                <h3>T-SHIRTS</h3>
+                <p>New Trendy Prints</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="newsletter">
+        <div class="nwslrt_txt">
+            <h3>SignUp For Newsletter</h3>
+            <p>Get E-mail updates about our latestshop and <span>special offers</span></p>
+        </div>
+        <div class="form">
+            <form action="">
+                <input type="email" id="email" for="email" placeholder="Your Email Address">
+                <button type="submit">Sign Up</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="actual-footer">
+            <div class="cont">
+                <img src="image/logo.png" alt="footer-logo">
+                <div class="f-cont">
+                    <h4>Contact</h4>
+                    <div><strong>Address:</strong> 562 Wellington Road, Street 32, San Fransisco</div>
+                    <div><strong>Phone:</strong> +01 2222 365</div>
+                    <div><strong>Hours: </strong>10:00 - 18:00 Mon -Sat</div>
+                </div>
+                <div class="social">
+                    <h4>Follow Us</h4>
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-about">
+                <h4>About</h4>
+                <ul>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Delivery Information</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Terms & Contditions</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="f-my-account">
+                <h4>My Account</h4>
+                <ul>
+                    <li><a href="">Sign In</a></li>
+                    <li><a href="">View Cart</a></li>
+                    <li><a href="">My Wishlist</a></li>
+                    <li><a href="">Track My Order</a></li>
+                    <li><a href="">Help</a></li>
+                </ul>
+            </div>
+            <div class="install-app">
+                <h4>Install App</h4>
+                <div>From App Store or Google Play</div>
+                <div class="app_google">
+                    <a href=""><img src="image/pay/app.jpg" alt="" width="150px"></a>
+                    <a href=""><img src="image/pay/play.jpg" alt="" width="150px"></a>
+                </div>
+                <div>Secured Payment Gateways</div>
+                <div class="pay">
+                    <img style="margin-top:10px" src="image/pay/pay.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="copy">No Copyrights.For demonstration purpose only</div> 
+    </footer>
+
+
+    <script src="js.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js"></script>
+</body>
+
+</html>
