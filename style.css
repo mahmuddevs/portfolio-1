@@ -25,7 +25,6 @@ body {
 }
 
 /*header*/
-
 .header {
     display: flex;
     justify-content: space-between;
@@ -43,8 +42,6 @@ body {
     display: flex;
     gap: 1.5em;
 }
-
-
 
 .nav ul li {
     list-style: none;
